@@ -49,6 +49,6 @@ int _str_cmp(const char *_s1, const char *_s2);
 char getValue(deck_node_t *card);
 void _insertionSortDeckKind(deck_node_t **deck);
 void _insertionSortDeckValue(deck_node_t **deck);
-void _sortDeck(deck_node_t **deck);
+void sort_deck(deck_node_t **deck);
 
 #endif

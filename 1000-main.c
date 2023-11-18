@@ -53,7 +53,7 @@ int main(void)
     deck = init_deck(cards);
     print_deck(deck);
     printf("\n");
-    _sortDeck(&deck);
+    sort_deck(&deck);
     printf("\n");
     print_deck(deck);
     return (0);
